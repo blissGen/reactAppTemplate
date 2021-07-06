@@ -6,8 +6,11 @@ const Body = ({
 }) => { 
 	return (
 		<body>
-			<div className="p-10 grid justify-items-center">
-				<img className="object-scale-down max-h-60" src={img} alt="img"/>
+			<div className="p-10 grid justify-items-center bg-black">
+				<img 
+					className="object-scale-down max-h-250 cursor-pointer" i
+					src={img} alt="img" title="img"
+				/>
 			</div>
 		</body>
 	);
